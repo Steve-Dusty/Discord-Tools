@@ -1,5 +1,13 @@
 {
-"token":"PutTokenHere",
-"user_id":Your_user_id_here,
-"logging_id":logged_channel_id
+  "token":"PutTokenHere",
+  "user_id":Your_user_id_here,
+  "logging_id": [
+    channel_id_1,
+    channel_id_2,
+    channel_id_3,
+    channel_id_4,
+    channel_id_5,
+    channel_id_6,
+    channel_id_etc
+  ]
 }
