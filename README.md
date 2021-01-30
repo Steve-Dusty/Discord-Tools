@@ -66,7 +66,7 @@ Here is everything you need to find your ID [how to find IDs](https://support.di
 You can open an issue here on Github or contact me on Discord.<br>
 **How do I contribute?**<br>
 Contact me on Discord or make a pull request to fix bugs, optimize code, or add other necessary components.<br>
-**Is this against Discord Terms of Service?**
+**Is this against Discord Terms of Service?**<br>
 Yes, so don't get caught. You can delete messages so others cannot report your suspicious messages. Deleted messages are not saved in the Discord messaging database.
 
 # Resources
