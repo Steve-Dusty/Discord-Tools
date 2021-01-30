@@ -26,11 +26,20 @@ Ta-da! You're officially finished with configuration.<br>
 **Example**<br>
 ```json
 {
-"token":"H5boY1GE3dNFiQJSM.IdkI.Dl0PQWEfYBI0Yv-NzKsNTEyNTQJdWQ0OSmOMjY0",
-"user_id":936212549914029121,
-"logging_id":192806890395834216
+  "token":"H5boY1GE3dNFiQJSM.IdkI.Dl0PQWEfYBI0Yv-NzKsNTEyNTQJdWQ0OSmOMjY0",
+  "user_id":936212549914029121,
+  "logging_id":[
+    192806890395834216,
+    776919872286097462,
+    788082069698904104,
+    757745285186453586,
+    804431813962367029,
+    506605752899731457
+  ]
 }
 ```
+You can add as much channels as you desire, but beware, don't get carried off as logging may get slow or rate-limited.
+Be sure to place a commma `,` in the end of every channel ID in the array (list) except the last one, as shown in the example above.
 
 # Usage 
 There are 6 commands available to you.
