@@ -28,9 +28,10 @@ async def on_message_delete(message):
     if not message.content.startswith("/snipe"):
         client.sniped_messages[message.channel.id] = (message.content, message.author)
 
-    if message.channel.id == info["logging_id"]:
-        with open("messages.txt", "a") as msgs:
-            msgs.write(f"===={message.author.name}, {datetime.datetime.now().strftime('%x')}, {datetime.datetime.now().strftime('%X')}====\n{message.content}\n")
+    for ids in info["logging_id"]:
+        if message.channel.id == ids:
+            with open("messages.txt", "a") as msgs:
+                msgs.write(f"===={message.author.name}, {datetime.datetime.now().strftime('%x')}, {datetime.datetime.now().strftime('%X')}====\n{message.content}\n")
 
 
 @client.event
